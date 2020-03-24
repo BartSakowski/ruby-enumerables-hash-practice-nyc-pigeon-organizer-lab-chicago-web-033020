@@ -5,7 +5,7 @@ data.each do |colors_gender_lives, values|
     array.each do |name|
       if hash[name] == nil
         hash [name] = {}
-        
-    
+
+
 
 end
