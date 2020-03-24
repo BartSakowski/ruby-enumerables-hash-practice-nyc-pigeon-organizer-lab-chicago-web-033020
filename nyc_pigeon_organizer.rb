@@ -1,5 +1,11 @@
 def nyc_pigeon_organizer(data)
-pigeon_list = {}
+hash = {}
 data.each do |colors_gender_lives, values|
+  values.each do |value, array|
+    array.each do |name|
+      if hash[name] == nil
+        hash [name] = {}
+        
+    
 
 end
