@@ -20,7 +20,7 @@ data.each do |colors_gender_lives, values|
     array.each do |element|
       if element == name && hashvalue == colors_gender_lives
 
-        hash[name] << value.to_s
+        hash[name][hashvalue] << value.to_s
       end
     end
   end
